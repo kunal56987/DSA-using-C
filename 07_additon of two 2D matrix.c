@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main(){
 	int a[10][10],b[10][10],c[10][10],i,j,size1,size2,size3,size4;
-	printf("Enter the value of i for matrix A:");
+	printf("Enter the no of rows for matrix A:");
 	scanf("%d",&size1);
-	printf("Enter the value of j for matrix A:");
+	printf("Enter the no. of column for matrix A:");
 	scanf("%d",&size2);
 	printf("\nEnter the elements of matrix A\n");
 	for(i=0;i<size1;i++){
@@ -12,9 +12,9 @@ int main(){
 			scanf("%d",&a[i][j]);
 		}
 	}
-	printf("\nEnter the valuev of i for matrix B:");
+	printf("\nEnter the no. of rows for matrix B:");
 	scanf("%d",&size3);
-	printf("Enter the valuev of i for matrix B:");
+	printf("Enter the no. of column matrix B:");
 	scanf("%d",&size4);
 	printf("\nEnter the elements of matrix B\n");
 	for(i=0;i<size3;i++){
